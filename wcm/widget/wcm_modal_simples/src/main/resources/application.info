@@ -1,0 +1,15 @@
+application.type=widget
+application.code=wcm_modal_simples
+application.title=Modal simples
+application.description=Exemplo de abertura de uma modal simples
+application.category=TIME-WCM
+application.renderer=freemarker
+developer.code=SPON4715
+developer.name=juliemar.berri
+developer.url=http://www.fluig.com
+application.uiwidget=true
+view.file=view.ftl
+edit.file=edit.ftl
+application.resource.js.1=/resources/js/wcm_modal_simples.js
+application.icon=icon_wcm_modal_simples.png
+
