@@ -1,0 +1,16 @@
+application.type=layout
+application.code=wcm_layout_sem_menu
+application.title=Layout sem menu
+application.description=Exmplo de layout sem o menu lateral
+application.category=SYSTEM
+application.renderer=freemarker
+developer.code=SPON4715
+developer.name=juliemar.berri
+developer.url=http://www.fluig.com
+layout.defaultSlot=SlotA
+layout.file=layout.ftl
+locale.file.base.name=wcm_layout_sem_menu
+slot.SlotLogin=sociallogin
+application.icon=icon.png
+application.resource.css.2=/resources/css/wcm_layout_sem_menu.css
+
