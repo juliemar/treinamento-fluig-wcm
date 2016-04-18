@@ -1,0 +1,16 @@
+application.type=layout
+application.code=wcm_sem_menu
+application.title=Layout sem o menu l\u00E9gal :)
+application.description=Vamos ver como fica sem o menu preto
+application.category=SYSTEM
+application.renderer=freemarker
+developer.code=SPON4715
+developer.name=juliemar.berri
+developer.url=http://www.fluig.com
+layout.defaultSlot=SlotA
+layout.file=layout.ftl
+locale.file.base.name=wcm_sem_menu
+slot.SlotMenu=menu
+slot.SlotLogin=sociallogin
+application.icon=layout_icon.png
+application.resource.css.1=/resources/css/wcm_sem_menu.css
