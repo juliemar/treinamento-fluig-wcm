@@ -13,7 +13,7 @@
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</button>
-					<a class="navbar-brand page-scroll" href="#page-top">Start Bootstrap</a>
+					<a class="navbar-brand page-scroll" href="#page-top">${i18n.getTranslation('layout.label.pagetitle')}</a>
 				</div>
 
 				<!-- Collect the nav links, forms, and other content for toggling -->
@@ -33,7 +33,8 @@
 						</li>
 						<li>
 							<div style="padding-top:10px;">
-								<#list (pageRender.getInstancesIds("SlotLogin"))! as id>
+								<#list (pageRender.getInstancesIds("SlotLogin"))!
+								as id>
 								${pageRender.renderInstanceNoDecorator(id)}
 								</#list>
 							</div>
@@ -52,7 +53,8 @@
 					<hr>
 						<p>Start Bootstrap can help you build better websites using the
 							Bootstrap CSS framework! Just download your template and start
-							going, no strings attached!</p>
+							going, no strings attached!
+						</p>
 						<a href="#about" class="btn btn-primary btn-xl page-scroll">Find Out More</a>
 				</div>
 			</div>
@@ -67,7 +69,8 @@
 							<p class="text-faded">Start Bootstrap has everything you need to get your
 								new website up and running in no time! All of the templates and
 								themes on Start Bootstrap are open source, free to download, and
-								easy to use. No strings attached!</p>
+								easy to use. No strings attached!
+							</p>
 							<a href="#services" class="page-scroll btn btn-default btn-xl">Get Started!</a>
 					</div>
 				</div>
@@ -90,7 +93,8 @@
 							<i class="fa fa-4x fa-diamond wow bounceIn text-primary" style="visibility: hidden; animation-name: none;"></i>
 							<h3>Sturdy Templates</h3>
 							<p class="text-muted">Our templates are updated regularly so they don't
-								break.</p>
+								break.
+							</p>
 						</div>
 					</div>
 					<div class="col-lg-3 col-md-6 text-center">
@@ -127,104 +131,13 @@
 		</section>
 
 		<section class="no-padding" id="portfolio">
-			<div class="container-fluid">
-				<div class="row no-gutter">
-					<div class="col-lg-4 col-sm-6">
-						<a href="#" class="portfolio-box">
-							<img src="/wcm_layout_criativo/resources/images/portfolio/1.jpg"
-								class="img-responsive" alt="">
-								<div class="portfolio-box-caption">
-									<div class="portfolio-box-caption-content">
-										<div class="project-category text-faded">
-											Category
-										</div>
-										<div class="project-name">
-											Project Name
-										</div>
-									</div>
-								</div>
-						</a>
-					</div>
-					<div class="col-lg-4 col-sm-6">
-						<a href="#" class="portfolio-box">
-							<img src="/wcm_layout_criativo/resources/images/portfolio/2.jpg"
-								class="img-responsive" alt="">
-								<div class="portfolio-box-caption">
-									<div class="portfolio-box-caption-content">
-										<div class="project-category text-faded">
-											Category
-										</div>
-										<div class="project-name">
-											Project Name
-										</div>
-									</div>
-								</div>
-						</a>
-					</div>
-					<div class="col-lg-4 col-sm-6">
-						<a href="#" class="portfolio-box">
-							<img src="/wcm_layout_criativo/resources/images/portfolio/3.jpg"
-								class="img-responsive" alt="">
-								<div class="portfolio-box-caption">
-									<div class="portfolio-box-caption-content">
-										<div class="project-category text-faded">
-											Category
-										</div>
-										<div class="project-name">
-											Project Name
-										</div>
-									</div>
-								</div>
-						</a>
-					</div>
-					<div class="col-lg-4 col-sm-6">
-						<a href="#" class="portfolio-box">
-							<img src="/wcm_layout_criativo/resources/images/portfolio/4.jpg"
-								class="img-responsive" alt="">
-								<div class="portfolio-box-caption">
-									<div class="portfolio-box-caption-content">
-										<div class="project-category text-faded">
-											Category
-										</div>
-										<div class="project-name">
-											Project Name
-										</div>
-									</div>
-								</div>
-						</a>
-					</div>
-					<div class="col-lg-4 col-sm-6">
-						<a href="#" class="portfolio-box">
-							<img src="/wcm_layout_criativo/resources/images/portfolio/5.jpg"
-								class="img-responsive" alt="">
-								<div class="portfolio-box-caption">
-									<div class="portfolio-box-caption-content">
-										<div class="project-category text-faded">
-											Category
-										</div>
-										<div class="project-name">
-											Project Name
-										</div>
-									</div>
-								</div>
-						</a>
-					</div>
-					<div class="col-lg-4 col-sm-6">
-						<a href="#" class="portfolio-box">
-							<img src="/wcm_layout_criativo/resources/images/portfolio/6.jpg"
-								class="img-responsive" alt="">
-								<div class="portfolio-box-caption">
-									<div class="portfolio-box-caption-content">
-										<div class="project-category text-faded">
-											Category
-										</div>
-										<div class="project-name">
-											Project Name
-										</div>
-									</div>
-								</div>
-						</a>
-					</div>
+			<!-- Slot 1 -->
+			<div class="editable-slot slotfull layout-1-1" id="slotFull1">
+				<div id="SlotC" slot="true" class="sortable" decorator="false"
+					editableSlot="true">
+					<#list (pageRender.getInstancesIds("SlotC"))! as id>
+					${pageRender.renderInstanceNoDecorator(id)}
+					</#list>
 				</div>
 			</div>
 		</section>
@@ -234,7 +147,8 @@
 				<div class="call-to-action">
 					<h2>Free Download at Start Bootstrap!</h2>
 					<a href="#" class="btn btn-default btn-xl wow tada" style="visibility: hidden; animation-name: none;">Download
-						Now!</a>
+						Now!
+					</a>
 				</div>
 			</div>
 		</aside>
@@ -247,7 +161,8 @@
 						<hr class="primary">
 							<p>Ready to start your next project with us? That's great! Give
 								us a call or send us an email and we will get back to you as
-								soon as possible!</p>
+								soon as possible!
+							</p>
 					</div>
 					<div class="col-lg-4 col-lg-offset-2 text-center">
 						<i class="fa fa-phone fa-3x wow bounceIn" style="visibility: hidden; animation-name: none;"></i>
@@ -263,10 +178,4 @@
 				</div>
 			</div>
 		</section>
-
-
-
-
-
-
 	</body>
