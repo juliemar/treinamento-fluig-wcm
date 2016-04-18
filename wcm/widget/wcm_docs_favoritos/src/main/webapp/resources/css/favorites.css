@@ -1,0 +1,52 @@
+.ecm-favorites .widget-title {
+	font-size: 1em;
+	font-weight: bold;
+	margin:0 0 10px;
+	padding: 7px;
+	background: #dcdcdc;
+}
+
+span.document-description {
+    cursor: pointer;
+}
+
+.ecm-table-paginator-wrapper {
+    float: right;
+	top: 425px;
+}
+
+.ecm-favorites-divBottom {
+    margin: 10px;
+    padding-bottom: 26px;
+}
+
+.ecm-favorites-divBottom input {
+    border: none;
+    cursor: pointer;
+    height:32px;
+    width:32px;
+    padding-right:45px;
+    margin-top: 2px;
+}
+
+span.documentFavorites-description {
+    cursor: pointer;
+}
+
+.ecm-favorites-principal {
+	position: relative;
+}
+
+.ecm-table-table-border {
+	border: 1px solid #6FB7E2;
+	width: 100%;
+	margin-top: 5px;
+	bottom: 65px;
+	top: 0px;
+	position: relative;
+	height: 416px;
+}
+
+.ecm-favorites-remove {
+	float: left;
+}
