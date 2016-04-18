@@ -1,0 +1,16 @@
+application.type=widget
+application.code=wcm_dataset_image
+application.title=Widget para listar imagens de um diretório
+application.description=Widget para listar imagens de um diretório para utilizar como exemplo de chamada a dataset
+application.category=TIME-WCM
+application.renderer=freemarker
+developer.code=SPON4715
+developer.name=juliemar.berri
+developer.url=http://www.fluig.com
+application.uiwidget=true
+view.file=view.ftl
+edit.file=edit.ftl
+locale.file.base.name=wcm_dataset_image
+application.resource.js.2=/resources/js/wcm_dataset_image.js
+application.resource.js.3=/resources/js/wcm_dataset_image_edit.js
+application.icon=icon_wcm_dataset_image.png
