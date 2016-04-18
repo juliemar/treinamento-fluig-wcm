@@ -1,6 +1,6 @@
 <link type="text/css" rel="stylesheet"
 	href="/wcm_layout_criativo/resources/css/wcm_layout_criativo.css">
-	<body id="page-top">
+	<treinamento id="page-top">
 
 		<nav id="mainNav" class="navbar navbar-default navbar-fixed-top affix-top">
 			<div class="container-fluid">
@@ -178,4 +178,4 @@
 				</div>
 			</div>
 		</section>
-	</body>
+	</treinamento>

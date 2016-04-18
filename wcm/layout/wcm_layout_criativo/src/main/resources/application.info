@@ -13,3 +13,4 @@ locale.file.base.name=wcm_layout_criativo
 slot.SlotMenu=menu
 slot.SlotLogin=sociallogin
 application.resource.css.2=/resources/css/wcm_layout_criativo.css
+application.icon=icon.png
