@@ -1,0 +1,17 @@
+application.type=widget
+application.code=wcm_listar_imagens_dataset
+application.title=Lista as imagens do Dataset
+application.description=VAmos consultar um dataset para listar as imagens
+application.category=TREINAMENTO
+application.renderer=freemarker
+developer.code=SPON4715
+developer.name=juliemar.berri
+developer.url=http://www.fluig.com
+application.uiwidget=true
+view.file=view.ftl
+edit.file=edit.ftl
+locale.file.base.name=wcm_listar_imagens_dataset
+application.resource.js.1=/resources/js/wcm_listar_imagens_dataset.js
+application.resource.css.2=/resources/css/wcm_listar_imagens_dataset.css
+application.icon=icon_wcm_listar_imagens_dataset.png
+
