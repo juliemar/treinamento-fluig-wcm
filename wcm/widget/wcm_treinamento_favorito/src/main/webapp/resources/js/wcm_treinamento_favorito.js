@@ -2,11 +2,15 @@ var TreinamentoFavorito = SuperWidget.extend({
 	message: null,
 
 	init: function () {
+		var that= this;
 		try{
 			$.getJSON( "/api/public/2.0/favorites/findFavoritesDocuments/juliemar.berri", 
 					function( data ) {
 				$.each(data.content, function( index, value ) {
-					console.log(value);
+
+
+					$("#favorito_"+that.instanceId).append("<p>"+value.documentDescription+"</p>");
+
 				});
 			});	
 		}catch(e){
