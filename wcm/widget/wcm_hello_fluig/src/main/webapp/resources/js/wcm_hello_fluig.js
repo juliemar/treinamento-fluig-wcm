@@ -20,6 +20,25 @@ var HelloWorld = SuperWidget.extend({
 		var nome = $("#nome_"+this.instanceId).val();
 		var sobrenome = $("#sobrenome_"+this.instanceId).val();
 
+		if(nome=="" || sobrenome==""){
+			
+			FLUIGC.message.alert({
+			    message: "${i18n.getTranslation('hello.validacao')}",
+			    title: "${i18n.getTranslation('hello.validacao.title')}",
+			    label: 'OK'
+			}, function(el, ev) {
+			    //Callback action executed by the user...
+			     
+			    //el: Element (button) clicked...
+			    //ev: Event triggered...
+			     
+				//Chama uma função da minha classe
+			    //this.someFunc();
+			});
+			
+			return;
+		}
+		
 		var pref = {
 				'nome':nome,
 				'sobrenome':sobrenome

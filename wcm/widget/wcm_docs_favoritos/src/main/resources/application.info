@@ -12,7 +12,6 @@ application.version=${build.version}-${build.revision}
 application.product=ECM
 view.file=view.ftl
 locale.file.base.name=wcm_docs_favoritos
-application.resource.component.1=datatable
 application.resource.js.2=/resources/js/favorites.js
 application.resource.js.3=/ecm_resources/resources/ecm-plugins.js
 application.resource.css.4=/resources/css/favorites.css

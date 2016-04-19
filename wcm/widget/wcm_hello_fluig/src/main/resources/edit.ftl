@@ -8,19 +8,19 @@
 			<form role="form">
 
 				<div class="form-group">
-					<label for="exampleInputEmail1">Nome</label>
+					<label for="exampleInputEmail1">${i18n.getTranslation('hello.nome')}</label>
 					<input type="text" class="form-control" id="nome_${instanceId}"
-						placeholder="Seu nome">
+						placeholder="${i18n.getTranslation('hello.seu.nome')}">
 				</div>
 
 				<div class="form-group">
-					<label for="exampleInputPassword1">Sobrenome</label>
+					<label for="exampleInputPassword1">${i18n.getTranslation('hello.sobrenome')}</label>
 					<input type="text" class="form-control" id="sobrenome_${instanceId}"
-						placeholder="Seu sobrenome">
+						placeholder="${i18n.getTranslation('hello.seu.sobrenome')}">
 				</div>
 				
 				<div class="pull-right">
-					<button type="button" class="btn btn-primary"  data-salvar-treinamento >Salvar</button>
+					<button type="button" class="btn btn-primary"  data-salvar-treinamento >${i18n.getTranslation('hello.save')}</button>
 				</div>
 				
 			</form>
