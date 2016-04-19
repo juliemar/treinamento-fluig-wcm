@@ -11,10 +11,17 @@ var HelloWorld = SuperWidget.extend({
 		local: {
 			'show-message': ['click_showMessage'],
 			'salvar-treinamento':['click_salvarTreinamento']
+		},
+		global:{
+			'save-modal':['click_salvarModal']
 		}
 	},
 
-
+	salvarModal:function(){
+		alert("Salvar Modal!!");
+	},
+	
+	
 	salvarTreinamento:function(){
 
 		var nome = $("#nome_"+this.instanceId).val();
@@ -86,13 +93,13 @@ var HelloWorld = SuperWidget.extend({
 		            customInstance: WCMAPI.generateId()
 		        }
 		    },
-		    id: 'fluig-modal',
+		    id: 'fluig-modal'+this.instanceId,
 		    actions: [{
 		        'label': 'Save',
-		        'bind': 'data-open-modal',
+		        'bind': 'data-save-modal',
 		    },{
 		        'label': 'Cancel',
-		        'bind': 'data-open-modal',
+		        'bind': 'data-cancel-modal',
 		        'close': true
 		    }]
 		}, function(err, data) {
