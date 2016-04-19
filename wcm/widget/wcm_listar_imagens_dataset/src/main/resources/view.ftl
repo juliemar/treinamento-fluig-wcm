@@ -1,15 +1,34 @@
 <div id="TreinamentoImagens_${instanceId}" class="super-widget wcm-widget-class fluig-style-guide"
-     data-params="TreinamentoImagens.instance({message: 'Hello world'})">
+	data-params="TreinamentoImagens.instance({folderId: '${folderId!}'})">
 
-    <!-- efetua a tradução do texto do objeto i18n -->	
-    <h1>${i18n.getTranslation('hello.example.hello')}</h1>
 
-    <div>
-        <button type="button" class="btn btn-default" data-show-message>${i18n.getTranslation('hello.button.showMessage')}</button>
-    </div>
+	<div class="container-fluid">
+		<div class="row no-gutter" data-view-images-${instanceId}>
 
-    <div id='helloMessage_${instanceId}'>
-    </div>
-    
+		</div>
+	</div>
+
+
+	<script type="template" class="listar-imagens">
+		{{#images}}
+		<div class="col-lg-4 col-sm-6">
+			<a href="#" class="portfolio-box">
+				<img src="{{src}}" class="img-responsive" alt="">
+					<div class="portfolio-box-caption">
+						<div class="portfolio-box-caption-content">
+							<div class="project-category text-faded">
+								{{title}}
+							</div>
+							<div class="project-name">
+								Project Name
+							</div>
+						</div>
+					</div>
+			</a>
+		</div>
+		{{/images}}
+	</script>
 
 </div>
+
+<script type="text/javascript" src="/webdesk/vcXMLRPC.js"></script>
