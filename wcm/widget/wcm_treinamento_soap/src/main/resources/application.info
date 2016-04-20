@@ -14,3 +14,5 @@ locale.file.base.name=wcm_treinamento_soap
 application.resource.js.1=/resources/js/wcm_treinamento_soap.js
 application.resource.css.2=/resources/css/wcm_treinamento_soap.css
 application.icon=icon_wcm_treinamento_soap.png
+application.resource.component.1=social/socialformanswer
+application.resource.component.2=wcm/selectuser

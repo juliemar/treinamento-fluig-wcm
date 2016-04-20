@@ -7,6 +7,14 @@
     <div>
         <button type="button" class="btn btn-default" data-show-message>${i18n.getTranslation('hello.button.showMessage')}</button>
     </div>
+    </br>
+    <div>
+        <button type="button" class="btn btn-default" data-resposta>Responda o Formulário</button>
+    </div>
+    </br>
+    <div>
+        <button type="button" class="btn btn-default" data-selecao-usuario>Selecione um usuário</button>
+    </div>
 
     <div id='helloMessage_${instanceId}'>
     </div>
