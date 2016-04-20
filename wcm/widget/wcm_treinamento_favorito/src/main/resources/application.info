@@ -14,3 +14,4 @@ locale.file.base.name=wcm_treinamento_favorito
 application.resource.js.1=/resources/js/wcm_treinamento_favorito.js
 application.resource.css.2=/resources/css/wcm_treinamento_favorito.css
 application.icon=icon_wcm_treinamento_favorito.png
+application.mobileapp=true

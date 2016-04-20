@@ -14,4 +14,5 @@ locale.file.base.name=wcm_listar_imagens_dataset
 application.resource.js.1=/resources/js/wcm_listar_imagens_dataset.js
 application.resource.css.2=/resources/css/wcm_listar_imagens_dataset.css
 application.icon=icon_wcm_listar_imagens_dataset.png
+application.mobileapp=true
 
